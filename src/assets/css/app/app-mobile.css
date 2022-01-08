@@ -1,0 +1,44 @@
+@media (min-width: 0px) and (max-width: 600px) {
+  header {
+    padding: 0 20px;
+    padding-top: 20px;
+  }
+
+  .header__logo {
+    height: auto;
+  }
+
+  .logo__word1 {
+    font-size: 15px;
+    line-height: normal;
+  }
+
+  .logo__word2 {
+    font-size: 35px;
+  }
+
+  .header__nav {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+    width: calc(100% - 40px);
+  }
+
+  .header__nav__item {
+    font-size: 17px;
+  }
+
+  .header__card {
+    width: auto;
+  }
+
+  .header__card__text {
+    display: none;
+  }
+
+  .product-number {
+    bottom: -3px;
+    right: 10px;
+  }
+}

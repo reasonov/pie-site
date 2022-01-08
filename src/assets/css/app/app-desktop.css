@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1300px;
+  padding: 0 70px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  height: 70px;
+
+  font-family: 'Lighthaus', serif;
+  color: #000;
+}
+
+.logo__word1 {
+  display: block;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.logo__word2 {
+  display: block;
+  font-size: 45px;
+  line-height: 20px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+
+  width: 590px;
+  padding-top: 10px;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .header__nav {
+    width: 480px;
+  }
+}
+
+.header__nav__item {
+  font-family: 'Century Gothic', serif;
+  font-size: 25px;
+  color: #000;
+}
+
+.header__card {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 140px;
+
+  font-family: 'Century Gothic', serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.product-number {
+  position: absolute;
+  bottom: 7px;
+  right: 9px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+
+  background-color: #c1c1c1;
+
+  font-size: 14px;
+  color: #000;
+}

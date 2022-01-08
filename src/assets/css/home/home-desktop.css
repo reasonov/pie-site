@@ -1,0 +1,120 @@
+.home-page {
+  position: relative;
+  max-width: 1440px;
+  padding: 0 70px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.home-page__caption {
+  font-size: 440px;
+  font-family: 'Blacker Sans Trial Regular', serif;
+
+  font-weight: 400;
+  line-height: 270px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.home-page__middle {
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+  padding-top: 120px;
+}
+
+.page__number {
+  position: absolute;
+  top: 155px;
+  left: 70px;
+
+  font-family: 'Century Gothic', serif;
+  font-size: 137px;
+}
+
+.page__number::before {
+  content: '';
+
+  position: absolute;
+  top: -30px;
+  left: 0;
+  z-index: 5;
+
+  width: 180px;
+  border-bottom: 3px solid #000;
+}
+
+.home-page__text {
+  margin-bottom: 60px;
+
+  font-family: 'Century Gothic', serif;
+  font-size: 25px;
+}
+
+.to-shop__button {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+
+  font-family: 'Century Gothic', serif;
+  font-size: 42px;
+  color: #fff;
+}
+
+.to-shop__button::after {
+  content: '';
+
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  z-index: -1;
+
+  width: 330px;
+  height: 55px;
+
+  transform: matrix(1, 0.5, 0, 1, 0, -6) rotateZ(-23deg);
+
+  background-color: #000;
+}
+
+.to-shop__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 36px;
+  height: 36px;
+  margin-left: 20px;
+
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+
+  width: 90px;
+  margin-top: 250px;
+}
+
+.pie-icon {
+  position: absolute;
+  top: 185px;
+  left: calc(50% - 275px);
+
+  width: 550px;
+  height: 550px;
+
+  background-image: url('../../../assets/images/pie-icon.png');
+  background-size: contain;
+}

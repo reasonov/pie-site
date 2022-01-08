@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Blacker Sans Trial Regular";
+  src: url(blacker-sans-display-trial.regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "Lighthaus";
+  src: url(Lighthaus.otf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap
+}

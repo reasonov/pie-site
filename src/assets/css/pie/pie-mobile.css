@@ -1,0 +1,57 @@
+@media (min-width: 0px) and (max-width: 600px) {
+
+  .pie-page {
+    padding: 0 20px;
+  }
+
+  .pie__image {
+    height: 200px;
+    margin-top: 145px;
+  }
+
+  .pie__go-back {
+    top: 100px;
+    left: 20px;
+  }
+
+  .pie__caption {
+    font-size: 33px;
+  }
+
+  .pie__slogan {
+    display: none;
+  }
+
+  .pie__params {
+    display: block;
+    margin-bottom: 170px;
+
+    font-family: 'Century Gothic';
+    font-size: 21px;
+  }
+
+  .pie__text {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+  }
+
+  .pie__order {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+
+    width: 180px;
+    margin: 0px;
+
+    font-size: 29px;
+  }
+
+  .pie__order::after {
+    top: 15px;
+    left: -15px;
+
+    width: 210px;
+    height: 45px;
+  }
+}

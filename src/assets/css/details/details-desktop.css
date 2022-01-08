@@ -1,0 +1,94 @@
+.cart-details {
+  max-width: 1300px;
+  padding: 0 70px;
+
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 170px;
+
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.details__wrapper {
+  max-width: 1130px;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.details__main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.details__caption {
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 71px;
+  text-align: center;
+}
+
+.details__delivery {
+  margin-right: 50px;
+}
+
+.details__list {
+  margin-top: 80px;
+}
+
+.details__list li {
+  display: flex;
+
+  margin-bottom: 65px;
+}
+
+.details__item__checkbox {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-top: 11px;
+  margin-right: 75px;
+
+  border-radius: 50%;
+
+  background-color: #000;
+}
+
+.details__checkbox--active::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+
+  width: 43px;
+  height: 43px;
+
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.details__item__name {
+  display: block;
+  margin-bottom: 15px;
+
+  font-family: 'Cormorant', serif;
+  font-size: 29px;
+}
+
+.delivery__address {
+  width: 255px;
+  height: 35px;
+  padding-left: 20px;
+
+  box-sizing: border-box;
+
+  background-color: #e5e5e5;
+
+  font-family: 'Cormorant', serif;
+  font-size: 21px;
+}
+
+.details__submit {
+  margin-left: auto;
+}

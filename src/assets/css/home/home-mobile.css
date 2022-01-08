@@ -1,0 +1,132 @@
+@media (min-width: 0px) and (max-width: 600px) {
+  .home-page {
+    min-height: 100vh;
+    padding: 0 20px;
+    padding-bottom: 250px;
+    box-sizing: border-box;
+  }
+
+  .home-page__caption {
+    margin-top: 150px;
+
+    font-size: 115px;
+    line-height: normal;
+  }
+
+  .home-page__middle {
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+
+  .home-page__text {
+    font-size: 21px;
+  }
+
+  .page__number {
+    top: auto;
+    bottom: -18px;
+    left: 0px;
+
+    font-size: 49px;
+  }
+
+  .page__number::before {
+    top: -10px;
+
+    width: 65px;
+    height: 1px;
+  }
+
+  .home-page__right-side {
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 260px;
+  }
+
+  .to-shop__button {
+    margin-left: auto;
+
+    font-size: 27px;
+  }
+
+  .home__to-shop::after {
+    left: -8px !important;
+    width: 225px !important;
+    height: 40px !important;
+  }
+
+  .pie-icon {
+    top: auto;
+    bottom: -200px;
+    left: 50%;
+
+    width: 400px;
+    height: 400px;
+
+    transform: translateX(-50%);
+  }
+
+  .social-networks {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+  }
+
+
+  /* ANIMATIONS */
+
+  .page__number--loaded::before {
+    animation: page__number-before-am 3s;
+  }
+
+  @keyframes page__number-before-am {
+    0% {
+      top: 140px;
+      opacity: 0;
+    }
+    66% {
+      top: 140px;
+      opacity: 0;
+    }
+    100% {
+      top: -10px;
+      opacity: 1;
+    }
+  }
+
+  .pie-icon--loaded {
+    animation: pie-icon-am 1s linear;
+  }
+
+  @keyframes pie-icon-am {
+    0% {
+      left: calc(50% + 50px);
+      opacity: 0;
+      transform: rotateZ(280deg);
+    }
+
+    25% {
+      left: calc(50%);
+      opacity: 0.25;
+      transform: rotateZ(210deg);
+    }
+
+    50% {
+      left: calc(50% - 175px);
+      opacity: 0.5;
+      transform: rotateZ(140deg);
+    }
+
+    75% {
+      left: calc(50% - 275px);
+      opacity: 1;
+      transform: rotateZ(70deg);
+    }
+
+    100% {
+      left: calc(50% - 200px);
+      transform: rotateZ(0deg);
+    }
+  }
+}

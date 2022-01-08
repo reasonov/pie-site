@@ -1,0 +1,102 @@
+.pie-page {
+  position: relative;
+  display: flex;
+
+  max-width: 1300px;
+  padding: 0 70px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.pie__image {
+  width: 458px;
+  height: 850px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pie__go-back {
+  position: absolute;
+  top: 30px;
+  right: 165px;
+
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 25px;
+  color: black;
+}
+
+.pie__go-back::after {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 80px;
+
+  width: 130px;
+  height: 2px;
+
+  background-color: black;
+}
+
+.pie__main {
+  max-width: 630px;
+  margin-top: 100px;
+  margin-left: 45px;
+}
+
+.pie__caption {
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 83px;
+  line-height: 70px;
+}
+
+.pie__params {
+  display: none;
+}
+
+.pie__slogan {
+  margin-bottom: 50px;
+
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 38px;
+  color: #cccccc;
+}
+
+.pie__text {
+  margin-bottom: 30px;
+
+  font-family: 'Cormorant SC', serif;
+  font-size: 25px;
+}
+
+.pie__order {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 274px;
+  height: 64px;
+  margin-top: 50px;
+
+  font-family: 'Century Gothic', serif;
+  font-size: 33px;
+  color: #fff;
+}
+
+.pie__order::after {
+  content: '';
+
+  position: absolute;
+  top: 12px;
+  left: 3px;
+  z-index: -1;
+
+  width: 264px;
+  height: 51px;
+
+  transform: matrix(1, 0.5, 0, 1, 0, -6) rotateZ(-23deg);
+
+  background-color: #000;
+}

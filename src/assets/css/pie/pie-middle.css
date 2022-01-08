@@ -1,0 +1,34 @@
+@media (min-width: 0px) and (max-width: 1300px) {
+
+  .pie-page {
+    flex-direction: column;
+  }
+
+  .pie__image {
+    width: 100%;
+    height: 550px;
+    margin-top: 150px;
+
+    background-position: center;
+    background-size: cover;
+  }
+
+  .pie__go-back {
+    top: 85px;
+    left: 70px;
+    right: auto;
+
+    text-decoration: 1px underline;
+  }
+
+  .pie__go-back::after {
+    display: none;
+  }
+
+  .pie__main {
+    position: relative;
+
+    margin: 0px;
+    margin-top: 20px;
+  }
+}

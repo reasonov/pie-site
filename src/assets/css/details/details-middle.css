@@ -1,0 +1,5 @@
+@media (min-width: 0px) and (max-width: 1040px) {
+  .details__main {
+    justify-content: center;
+  }
+}

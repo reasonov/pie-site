@@ -1,0 +1,31 @@
+@media (min-width: 0px) and (max-width: 1400px) {
+  .sales__list-slider {
+    width: 975px;
+  }
+
+  .sales__list {
+    left: auto;
+    right: 0px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1100px) {
+  .sales__list-slider {
+    width: 650px;
+  }
+
+
+  .sales__eclipce-list {
+    width: 155px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 770px) {
+  .sales__list-slider {
+    width: 326px;
+  }
+
+  .sales__eclipce-list {
+    width: 330px;
+  }
+}

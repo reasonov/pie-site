@@ -1,0 +1,157 @@
+.cart-page {
+  max-width: 1300px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+
+.cart__caption {
+  padding: 100px 0;
+
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 83px;
+  text-align: center;
+}
+
+.cart__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.cart__item-wrapper {
+  margin-bottom: 50px;
+}
+
+.cart__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 635px;
+}
+
+.cart__item img {
+  width: 115px;
+  height: 160px;
+}
+
+.cart__item__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 160px;
+}
+
+.cart__item__name {
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 37px;
+}
+
+.cart__item__weight {
+  font-family: 'Cormorant', serif;
+  font-size: 33px;
+}
+
+.cart__toggler-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 145px;
+}
+
+.cart__toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.cart__item__price {
+  border-bottom: 3px solid #000;
+
+  font-family: 'Cormorant', serif;
+  font-size: 38px;
+}
+
+.cart__scroll {
+  position: relative;
+
+  height: 100%;
+  min-height: 455px;
+  width: 4px;
+
+  background-color: #eeeeee;
+}
+
+.scroll__eclipse {
+  position: absolute;
+  top: 0;
+  left: -5px;
+
+  width: 14px;
+  height: 14px;
+
+  border-radius: 50%;
+
+  background-color: #000;
+}
+
+.scroll__eclipse::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+
+  width: 43px;
+  height: 43px;
+
+  border-radius: 50%;
+  border: 2px solid #000;
+  box-sizing: border-box;
+}
+
+.cart__request {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  width: 300px;
+}
+
+.cart__request__header {
+  font-family: 'Blacker Sans Trial Regular', serif;
+  font-size: 37px;
+}
+
+.cart__request__price {
+  border-bottom: 3px solid #000;
+
+  font-family: 'Cormorant', serif;
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.request__input {
+  display: block;
+  width: 100%;
+  margin-top: 60px;
+  padding-right: 25px;
+  border-bottom: 3px solid #000;
+  box-sizing: border-box;
+
+  font-family: 'Cormorant', serif;
+  font-size: 33px;
+  text-align: right;
+}
+
+.request__submit {
+  margin-top: 80px;
+}
